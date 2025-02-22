@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(198, 200, 200);
+    padding: 30px;
+}
+header{
+    display: block;
+    height: 60px;
+}
+
+header nav ul li{
+    display: inline;
+}
+
+header nav ul li a{
+    color: #843939; /*#805c5c / #784444*/
+}
+
+.projetos{
+    border: 1px solid #843939;
+    width: 100%;
+    height: 60vh;
+    margin-top: 20px;
+    display: flex;
+}
+
+.projetos img{
+    height: 50vh;
+    padding-top: 5vh;
+    display: inline;
+    margin: 10px;
+}
+
+.projetos p{
+    display: inline;
+}
