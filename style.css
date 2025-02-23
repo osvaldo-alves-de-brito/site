@@ -33,3 +33,7 @@ header nav ul li a{
 .projetos p{
     display: inline;
 }
+
+main{
+    height: 100vh;
+}
