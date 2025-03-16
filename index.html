@@ -1,48 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Meu Portfólio</title>
 </head>
+
 <body>
 
     <header>
         <nav>
-            <ul>
+            <ul class="navegacao">
                 <li><a href="./index.html">HOME</a></li>
                 <li><a href="./projetos.html">PROJETOS</a></li>
-            </ul> 
+            </ul>
         </nav>
     </header>
 
     <main>
-        <div class="my_photo">
-            <figure>
-                <img src="./images/my_photo.png" alt="Minha foto." class="my_photo">
-            </figure>
-        </div>
 
-        <h1>Bem-vindo ao meu portfólio!</h1>
+        <img src="./images/my_photo.png" alt="Minha foto." class="minha-foto">
 
-        <p>Olá, me chamo Osvaldo Alves, sou estudante de Engenharia da Computação. Criei este portfólio para mostrar meus projetos.</p>
 
-        <section class="skills">
+        <section class="sobre-mim">
+            <h1>Bem-vindo ao meu portfólio!</h1>
+            <h2>Quem sou eu!</h2>
+            <p>
+                Olá, me chamo Osvaldo Alves, sou estudante de Engenharia da Computação. Criei este portfólio para
+                mostrar meus projetos.
+            </p>
+        </section>
+
+        <section class="habilidades">
             <h2>Habilidades</h2>
-            <p>Tenho conhecimento em linguagens de programação como C, C++, Python e JavaScript.</p>
+            <p>Tenho conhecimento em linguagens de programação</p> 
+            <ul>
+                <li>C</li>
+                <li>C++</li>
+                <li>Java</li>
+                <li>SQL</li>
+            </ul>
         </section>
     </main>
-    
-    <hr>
-    
+
+    <br>
+    <br>
+
+
     <footer>
-        <ul>
-            <li><a href="#" target="_blank">WhatsApp</a></li>
-            <li><a href="#" target="_blank">LinkedIn</a></li>
-            <li><a href="#" target="_blank">Instagram</a></li>
+        <ul class="contato">
+            <li><a href="https://wa.me/18991928104" target="_blank">WhatsApp</a></li>
+            <li><a href="https://www.linkedin.com/in/osvaldo-alves-de-brito-457842252/ " target="_blank">LinkedIn</a>
+            </li>
         </ul>
     </footer>
-    
+
 </body>
+
 </html>

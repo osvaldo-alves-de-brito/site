@@ -1,39 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    background-color: rgb(198, 200, 200);
-    padding: 30px;
-}
-header{
-    display: block;
-    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header nav ul li{
+header{  
+    font-weight: 900;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+header, footer{
+    font-family: "Roboto", sans-serif;
+    background-color: #333;
+    text-align: center;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navegacao > li{
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+
+.minha-foto{
+    margin: 2rem auto;
+    margin-left: 45%;
+}
+
+.sobre-mim{
+    padding-left: 1rem;
+}
+
+.sobre-mim > h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 6rem;
+}
+
+h2 + p {
+    margin: 1rem 0 2rem 0;
+    font-size: 1.1rem;
+}
+
+.contato{
+    padding: 1rem;
+    text-align: center;
+    display: inline-block;
+}
+
+.contato li {
     display: inline;
+    margin-left: 4rem;
 }
 
-header nav ul li a{
-    color: #843939; /*#805c5c / #784444*/
+.habilidades{
+    margin: 0 0 4.5rem 1rem;
 }
 
-.projetos{
-    border: 1px solid #843939;
-    width: 100%;
-    height: 60vh;
-    margin-top: 20px;
-    display: flex;
-}
-
-.projetos img{
-    height: 50vh;
-    padding-top: 5vh;
-    display: inline;
-    margin: 10px;
-}
-
-.projetos p{
-    display: inline;
-}
-
-main{
-    height: 100vh;
+.habilidades ul{
+    margin-left: 2rem;
 }
